@@ -1,0 +1,23 @@
+:root {
+    --background-color: #F8F8F8;
+}
+
+.table-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.table-container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.table-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: var(--background-color);
+}

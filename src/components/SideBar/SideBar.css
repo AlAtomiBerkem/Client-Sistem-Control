@@ -1,0 +1,24 @@
+.sidebar {
+    background-color: white;
+    width: 200px;
+    margin: 0;
+}
+
+.sidebar .ant-menu-item {
+    color: black;
+}
+
+.sidebar .ant-menu-item:hover {
+    color: #1285E4;
+}
+
+.sidebar .ant-menu-item:hover .anticon,
+.sidebar .ant-menu-item-selected .anticon {
+    border-radius: 5px;
+}
+
+.sidebar .menu-divider {
+    height: 1px;
+    background-color: #e8e8e8;
+    margin: 100px 0;
+}

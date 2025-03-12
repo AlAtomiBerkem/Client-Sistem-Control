@@ -1,0 +1,39 @@
+.custom-input-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+}
+
+.custom-input::placeholder {
+    color: #aaa;
+}
+
+.input-close {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.close-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.close {
+    margin-right: 50px;
+}

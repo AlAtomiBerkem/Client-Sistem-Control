@@ -1,0 +1,5 @@
+export { default as Folder } from './FolderSvg'
+export { default as Person } from './PersonSvg'
+export { default as Plus } from './PlusSvg'
+export { default as DeleteSvg} from './DeleteSvg'
+export { default as EditingSvg } from './EditingSvg'

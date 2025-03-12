@@ -1,0 +1,68 @@
+:root {
+    --background-color: #F8F8F8;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: var(--background-color);
+}
+
+.greetings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.greetings h2 {
+    background-color: var(--background-color);
+}
+
+.create-project {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.create-project__button {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1886E4;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: none;
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.create-project__button:hover {
+    background-color: #1472C4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.create-project__button:active {
+    background-color: #105AA4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: all 0.1s ease;
+}
