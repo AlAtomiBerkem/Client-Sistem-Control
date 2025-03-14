@@ -1,0 +1,1 @@
+export const selectWorker = (state) => state.worker.workers

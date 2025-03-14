@@ -1,0 +1,111 @@
+:root {
+    --background-color: #F8F8F8;
+}
+
+.table-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.table-container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.table-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    background-color: var(--background-color);
+}
+
+.table__content-header .header__left {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Расстояние между элементами */
+    background-color: var(--background-color);
+}
+
+.table__content-header .header__left h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.table__content-header .header__right {
+    font-size: 20px;
+    color: black;
+    background-color: var(--background-color);
+}
+
+.table-body__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 10px;
+}
+
+.table-body__header h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.table-body__date {
+    font-size: 14px;
+    color: #666;
+}
+
+.table-body__control {
+    display: flex;
+    gap: 10px; /* Расстояние между иконками */
+}
+
+
+.table__content-body {
+    width: 100%;
+    height: 50vh;
+    margin: 70px;
+}
+
+.table__content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding-bottom: 10px;
+}
+
+.project-details {
+    display: flex; /* Делаем контейнер flex */
+    gap: 20px; /* Расстояние между колонками */
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Расстояние между строками */
+}
+
+.details-label {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500; /* Жирность для меток */
+    text-align: right; /* Выравниваем метки по правому краю */
+}
+
+.details-value {
+    font-size: 14px;
+    color: #333;
+    font-weight: 400; /* Обычный шрифт для значений */
+}

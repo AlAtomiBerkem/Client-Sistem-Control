@@ -1,0 +1,109 @@
+.worker-project-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.worker-project__content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    position: relative;
+}
+
+.worker-project__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.input-errors {
+    color: red;
+    font-size: 0.775em;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.form__items {
+    padding: 30px;
+}
+
+select {
+    width: 180px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none;
+}
+
+.form__select {
+    padding-left: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.label-name {
+    margin-left: 20px;
+    padding-bottom: 1em;
+}
+
+button {
+    font-size: 16px;
+    width: 60px;
+    height: 50px;
+    background-color: #1886E4;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: none;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1472C4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+}
+
+.custom-input::placeholder {
+    color: #aaa;
+}
